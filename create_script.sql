@@ -2,7 +2,6 @@
 DROP FUNCTION IF EXISTS remove_all();
 
 -- vytvořím funkci která odebere tabulky a sekvence
--- chcete také umět psát PLSQL? Zapište si předmět BI-SQL ;-)
 CREATE or replace FUNCTION remove_all() RETURNS void AS $$
 DECLARE
     rec RECORD;
